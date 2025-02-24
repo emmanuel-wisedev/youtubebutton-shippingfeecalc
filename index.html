@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YoutubeBtn & ShippingfeeCalc</title>
+  <script src="./scripts/main.js" defer></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="shortcut icon" type="image/png" href="./favicon/wisedevelopment-logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <p class="tube-font">YouTube Subscribe Button <i class="fa-brands fa-youtube fa-flip"></i></p>
+  <button onclick="subscribe();"class="js-subscribe-button subscribe-button">Subscribe</button>
+  <div class="sub-info-container">
+    <span class="sub-info"></span>
+  </div>
+
+  <div class="label-conatiner">
+    <p class="label">Shipping fee Calculator <i class="fa-duotone fa-solid fa-calculator fa-bounce"></i></p>
+  </div> 
+
+  <p>Orders under $40 have +$10 shipping fee.</p>
+  <p>Orders between $40 and $50 have +$5 shipping fee.</p>
+  <p>Orders above $50 have FREE shipping policy applied.</p>
+
+  <input class="js-cost-input cost-input" onkeydown="handleCostKeyDown(event);" type="number" placeholder="Cost of order">
+  <button class="calculateButton">Calculate</button>
+  <div>
+    <span class="errorDisplay"></span>
+  </div>
+
+  <p class="tax-display"></p> 
+  <p class="total-cost"></p>
+  <button class="order-btn">Place Order</button>
+
+  <div>
+    <span class="order-process-info"></span>
+  </div>
+</body>
+</html>
+ 

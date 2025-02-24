@@ -1,0 +1,92 @@
+body {
+  font-family: Arial;
+  background-color: rgb(25, 25, 25);
+}
+
+p {
+  color: #fff;
+}
+
+.subscribe-button {
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  color: #fff;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.is-subscribed {
+  background-color: rgb(240, 240, 240);
+  color: black;
+}
+
+.cost-input {
+  font-size: 15px;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.calculateButton,
+.order-btn {
+  padding: 12px 15px;
+  background-color: green;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.errorDisplay {
+  font-size: 12px;
+}
+
+.dark-green {
+  background-color: rgb(4, 56, 4);
+  color: #fff;
+}
+
+.order-process-info {
+  font-size: 10px;
+}
+
+.revoke-section {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.sub-info-container {
+  margin-bottom: 100px;
+  margin-top: 10px;
+}
+
+.sub-info {
+  color: gray;
+  font-size: 12px;
+  margin-left: 10px;
+  padding-top: 10px;
+}
+
+.label-conatiner {
+  margin-bottom: 30px;
+}
+
+.label {
+  font-family: "Press Start 2P",system-ui;
+}
+
+.tube-font {
+  font-family: "Press Start 2P",system-ui;
+}
+
+.fa-calculator {
+  font-size: 50px;
+}
+
+.fa-youtube {
+  font-size: 30px;
+}
+
